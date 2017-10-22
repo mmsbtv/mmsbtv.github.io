@@ -49,6 +49,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+.lock > *{
+    max-width:100%;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
