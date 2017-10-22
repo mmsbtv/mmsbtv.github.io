@@ -44,10 +44,11 @@
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
-img {
-  max-width: 100%;
+@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
 }
-
 	body {
 		-webkit-text-size-adjust: none;
 	}
