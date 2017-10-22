@@ -44,12 +44,18 @@
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
-@media screen and (max-width: 480px) {
-    img {
-         width: 400px;
-    }
+.img-responsive.mobile {
+  display: none;
 }
-	body {
+
+@media only screen and (max-device-width: 480px) {
+  .img-responsive {
+    display: none;
+  }
+  .img-responsive.mobile {
+    display: block;
+  }
+}	body {
 		-webkit-text-size-adjust: none;
 	}
 
