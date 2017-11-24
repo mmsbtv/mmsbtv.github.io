@@ -47,20 +47,6 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=753490318184510&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-<script>
-/**
-* Function that tracks a click on an outbound link in Analytics.
-* This function takes a valid URL string as an argument, and uses that URL string
-* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-* using 'navigator.sendBeacon' in browser that support it.
-*/
-var trackOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script> 
 	
 </head>
 
@@ -106,7 +92,7 @@ qacct:"p-LSBZVJnptm3n4"
     <img src="images/header.png" alt="" class="displayed">
   </picture>
 
- <a href="https://www.residentadvisor.net/events/1036839" onclick="trackOutboundLink('https://www.residentadvisor.net/events/1036839'); return false;"><img src="images/sat.png" alt="SBTV" class="days"></a><a href="https://www.residentadvisor.net/events/1036844" onclick="trackOutboundLink('https://www.residentadvisor.net/events/1036844'); return false;"><img src="images/sun.png" alt="SBTV" class="days"></a>
+<a href="https://www.residentadvisor.net/events/1036839" target="_blank"><img src="images/sat.png" alt="SBTV" class="days"></a><a href="https://www.residentadvisor.net/events/1036844" target="_blank"><img src="images/sun.png" alt="SBTV" class="days"></a>
 </div>
 
 </body>
