@@ -4,9 +4,12 @@ body {
 }
 h1 {
     text-align: center;
-	color: #cccccc;
+	color: #fff;
 	font-family: "Arial", Sans-Serif;
-	
+	 margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #top, #bottom, #left, #right {
 	background: #302E2D;
