@@ -2,6 +2,12 @@ body {
 	background-image: url(../images/bg.jpg);
 	background-color: #cccccc;
 }
+h1 {
+    text-align: center;
+	color: #cccccc;
+	font-family: "Arial", Sans-Serif;
+	
+}
 #top, #bottom, #left, #right {
 	background: #302E2D;
 	position: fixed;
